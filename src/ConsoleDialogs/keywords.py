@@ -6,7 +6,7 @@ ConsoleDialogs.keywords
 
 Provide the keywords
 """
-from __future__ import print_function, unicode_literals, division, absolute_import
+
 
 import os
 import sys
@@ -90,8 +90,8 @@ class ConsoleKeywords(object):
 
 # Fixing docstrings
 
-for keyword in ('pause_execution', 'execute_manual_step', 'get_value_from_user', 'get_selection_from_user'):
-    getattr(ConsoleKeywords, keyword).__func__.__doc__ = getattr(LegacyDialogs, keyword).__doc__
+# for keyword in ('pause_execution', 'execute_manual_step', 'get_value_from_user', 'get_selection_from_user'):
+#     getattr(ConsoleKeywords, keyword).__func__.__doc__ = getattr(LegacyDialogs, keyword).__doc__
 
 
 # ConsoleKeywords.pause_execution.__func__.__doc__ = orig_dialogs.pause_execution.__doc__

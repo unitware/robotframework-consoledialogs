@@ -6,7 +6,7 @@ ConsoleDialogs.cursesdialogs
 
 curses based dialogs
 """
-from __future__ import print_function, unicode_literals, division, absolute_import
+
 
 import contextlib
 import curses

@@ -6,7 +6,6 @@ ConsoleDialogs
 
 A pure console replacement for the Robot Framework Dialogs library.
 """
-from __future__ import print_function, unicode_literals, division, absolute_import
 
 import pkg_resources
 

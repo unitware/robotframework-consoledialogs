@@ -6,7 +6,7 @@ ConsoleDialogs.rawdialogs
 
 input/raw_input based dialogs
 """
-from __future__ import print_function, unicode_literals, division, absolute_import
+
 
 import functools
 import sys
@@ -86,7 +86,7 @@ class PassFailDialog(object):
         }
         show_message(self.message)
         while True:
-            result = raw_input('[P]ass or [f]ail? [P]')
+            result = input('[P]ass or [f]ail? [P]')
             result = result.strip().lower()
             result = possible.get(result)
             if isinstance(result, bool):
