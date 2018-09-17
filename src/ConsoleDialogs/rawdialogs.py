@@ -71,7 +71,7 @@ class MessageDialog(object):
     @ConsoleIO()
     def show(self):
         show_message(self.message)
-        # raw_input("Hit [Return] to continue!")
+        raw_input("Hit [Return] to continue!")
 
 
 class PassFailDialog(object):
